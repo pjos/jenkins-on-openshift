@@ -8,6 +8,7 @@ credentials-binding:1.13
 credentials:2.1.16
 ssh-credentials:1.13
 workflow-step-api:2.13
+artifactory:2.14.0
 
 # Jenkins JVM / Application monitoring
 monitoring:1.70.0
