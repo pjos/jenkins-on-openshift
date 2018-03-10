@@ -89,9 +89,10 @@ objects:
                                 if (rebuild == 'true' && goAhead != 'null') {
                                     echo "Starting a build of ${appBcName}"
                                     openshift.withCluster() {
-                                       openshift.withProject("${appNamespace}") {
-                                          openshift.startBuild("${appBcName}")
-                                       }
+                                        openshift.withProject("${appNamespace}") {
+                                            openshift.startBuild("${appBcName}")
+                                        }
+                                    }
                                 }
                             }
                         }
